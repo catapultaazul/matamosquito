@@ -56,11 +56,12 @@ function randomPosition() {
 }
     //mosquito position
 
-    var posicaoX = Math.floor(Math.random() * altura) -90
+    var posicaoX = Math.floor(Math.random() * largura) -90
     var posicaoY = Math.floor(Math.random() * altura) - 90
+
     
     posicaoX = posicaoX < 0 ? 0 : posicaoX
-    posicaoY = posicaoY <0? 0 : posicaoY
+    posicaoY = posicaoY < 0 ? 0 : posicaoY
 
     console.log(posicaoX, posicaoY)
 
